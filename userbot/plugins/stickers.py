@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in @XtraTgBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in @deadpool_army"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -50,7 +50,7 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    packname = f"{user.first_name}'s @XtraTgBot Vol.{pack}"
+    packname = f"{user.first_name}'s @deadpool_army Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
     await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
 
@@ -92,7 +92,7 @@ async def _(event):
             response = await silently_send_message(bot_conv, packname)
             if not response.text.startswith("Alright!"):
                 if "unacceptable" in response.text:
-                    packname = f"{user.id}'s @XtraTgBot Vol.{pack}"
+                    packname = f"{user.id}'s @deadpool_army Vol.{pack}"
                     response = await silently_send_message(bot_conv, packname)
                 else:
                     await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
