@@ -3,13 +3,13 @@
 Join https://t.me/deadpool_army for updates and tuts
 ### The Easy Way
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xzendercage/Userhero)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xzendercage/cagehero)
 
 ### The Normal Way
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/xzendercage/Userhero
+git clone https://github.com/xzendercage/cagehero
 cd X-tra-Telegram
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
