@@ -40,7 +40,7 @@ async def _(event):
             "------------------>",    
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
-            "**Target killed successfully (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
+            "**Target ki Gaand Maardi (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**",
         ]
 
         for i in animation_ttl:
