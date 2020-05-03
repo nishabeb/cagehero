@@ -13,7 +13,7 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("**At Your Service Sir !! I'm Alive**\n\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\nRepo by:` @xzendercage\n"
-                     "`Bot created by:`Xzender Cage\n"
+                     "`Bot created by:`★彡Xʑɘиԁєʀ cʌʛɘ彡★\n"
                      "`Database Status: Databases functioning normally!\n\nAlways with you, My Master!\n`"
-                     f"`My peru owner`: Xzender Cage\n"
+                     f"`My peru owner`: ★彡Xʑɘиԁєʀ cʌʛɘ彡★\n"
                      "[Deploy this userbot Now](https://github.com/xzendercage/cagehero)")
