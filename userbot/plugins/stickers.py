@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in @deadpool_army"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "★彡Xʑɘиԁєʀ cʌʛɘ彡★, check pinned in @deadpool_army"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -52,7 +52,7 @@ async def _(event):
     userid = event.from_id
     packname = f"{user.first_name}'s @deadpool_army Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`Rukk Bsdk Sticker Copy Karlu\nHo GYa Bss ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Anubis69_roxx.png"
@@ -62,8 +62,8 @@ async def _(event):
         file_ext_ns_ion = "AnimatedSticker.tgs"
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{user.first_name}'s Animated {pack}"
-        if userid == 719877937:
-            packshortname = "TheAnubis_Animated"
+        if userid == 898096089:
+            packshortname = "Xzender_Animated"
         else:
             packshortname = f"{user.first_name}'s_animated_{pack}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
