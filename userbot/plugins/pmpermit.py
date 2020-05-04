@@ -15,7 +15,7 @@ USER_BOT_WARN_ZERO = "`You were spamming my BOyfriend's inbox, henceforth your r
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=898096089)\n\n"
                     "`Hello, this is Cage Council Security Service.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s` inbox.\n\n"
-                    "Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 years.`\n\n"
+                    "Leave your name Phone Number and address or 100rs or reply mil jaega.`\n\n"
                     "** Send** `/start` ** so that we can decide why you're here.**")
 
 
