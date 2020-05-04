@@ -45,7 +45,7 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await borg.send_message(event.chat_id, f"**I shall be Going afk!** __Kyuki ~ {reason}__")
+            await borg.send_message(event.chat_id, f"**Jaa Rhe Ho sir?!** __Kyuki ~ {reason}__")
         else:
             await borg.send_message(event.chat_id, f"**jaa rha hu Kuch Der Ke Liye!**")
         await asyncio.sleep(5)
