@@ -10,7 +10,7 @@ Join https://t.me/deadpool_army for updates and tuts
 Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/xzendercage/cagehero
-cd X-tra-Telegram
+cd cagehero
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
