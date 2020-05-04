@@ -52,7 +52,7 @@ async def _(event):
     userid = event.from_id
     packname = f"{user.first_name}'s @deadpool_army Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Rukk Bsdk Sticker Copy Karlu\nHo GYa Bss ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`Rukk Bsdk Sticker Copy Karlu\nMst hai Tera Sticker ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Anubis69_roxx.png"
@@ -130,7 +130,7 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{user.first_name}'s @XtraTgBot Vol.{pack}"
+                    packname = f"{user.first_name}'s @xzendercage Vol.{pack}"
                     packshortname = f"Vol._{pack}_with_{userid}"
                     if not await stickerset_exists(bot_conv, packshortname):
                         await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol. **" + str(pack))
@@ -192,8 +192,8 @@ async def _(event):
                 await silently_send_message(bot_conv, "/done")
 
 
-    await event.edit(f"**Kanged!** `This sticker has been stolen to` [this place](t.me/addstickers/{packshortname}), pack{pack}"
-                     f" `by` {DEFAULTUSER}\n**ᕦ(ò_óˇ)ᕤ**")
+    await event.edit(f"**Hogya Copy Or Add Bhi Karlia` [this place](t.me/addstickers/{packshortname}), pack{pack}"
+                     f" `by` {DEFAULTUSER}\n**Gaand Mrwao Ab**")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
