@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "★彡Xʑɘиԁєʀ cʌʛɘ彡★, check pinned in @deadpool_army"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in@deadpool_army"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -50,9 +50,9 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    packname = f"{user.first_name}'s @deadpool_army Vol.{pack}"
+    packname = f"{user.first_name}'s@deadpool_army Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
-    await event.edit("`Rukk Bsdk Sticker Copy Karlu\nMst hai Tera Sticker ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`Rukk Bsdk Sticker Copy Krlu!\nRukk Ja Bss Ho Gya Copy ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "Anubis69_roxx.png"
@@ -63,7 +63,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{user.first_name}'s Animated {pack}"
         if userid == 898096089:
-            packshortname = "Xzender_Animated"
+            packshortname = "TheAnubis_Animated"
         else:
             packshortname = f"{user.first_name}'s_animated_{pack}" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
@@ -92,7 +92,7 @@ async def _(event):
             response = await silently_send_message(bot_conv, packname)
             if not response.text.startswith("Alright!"):
                 if "unacceptable" in response.text:
-                    packname = f"{user.id}'s @deadpool_army Vol.{pack}"
+                    packname = f"{user.id}'s@deadpool_army Vol.{pack}"
                     response = await silently_send_message(bot_conv, packname)
                 else:
                     await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
@@ -130,7 +130,7 @@ async def _(event):
                 while response.text == FILLED_UP_DADDY:
                     pack += 1
                     prevv = int(pack) - 1
-                    packname = f"{user.first_name}'s @xzendercage Vol.{pack}"
+                    packname = f"{user.first_name}'s@deadpool_army Vol.{pack}"
                     packshortname = f"Vol._{pack}_with_{userid}"
                     if not await stickerset_exists(bot_conv, packshortname):
                         await event.edit("**Pack No. **" + str(prevv) + "** full! Making a new Pack, Vol. **" + str(pack))
@@ -144,7 +144,7 @@ async def _(event):
                         response = await silently_send_message(bot_conv, packname)
                         if not response.text.startswith("Alright!"):
                             if "unacceptable" in response.text:
-                                packname = f"{user.id}'s @XtraTgBot Vol.{pack}"
+                                packname = f"{user.id}'s@deadpool_army Vol.{pack}"
                                 response = await silently_send_message(bot_conv, packname)
                             else:
                                 await event.edit(f"**FAILED**! @Stickers replied: {response.text}")
@@ -192,8 +192,8 @@ async def _(event):
                 await silently_send_message(bot_conv, "/done")
 
 
-    await event.edit(f"**Hogya Copy Or Add Bhi Karlia` [this place](t.me/addstickers/{packshortname}), pack{pack}"
-                     f" `by` {DEFAULTUSER}\n**Gaand Mrwao Ab**")
+    await event.edit(f"**Copied!! ` [this place](t.me/addstickers/{packshortname}), pack{pack}"
+                     f" `by` {DEFAULTUSER}\n**ᕦ(ò_óˇ)ᕤ**")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
