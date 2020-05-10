@@ -55,7 +55,7 @@ async def _(event):
     await event.edit("`Rukk Bsdk Sticker Copy Krlu!\nRukk Ja Bss Ho Gya Copy ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "Anubis69_roxx.png"
+    file_ext_ns_ion = "xzendercage.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
@@ -192,8 +192,7 @@ async def _(event):
                 await silently_send_message(bot_conv, "/done")
 
 
-    await event.edit(f"**Copied!! ` [this place](t.me/addstickers/{packshortname}), pack{pack}"
-                     f" `by` {DEFAULTUSER}\n**ᕦ(ò_óˇ)ᕤ**")
+    await event.edit(f"**Copied!! Sir Check Sticker Pack\n**ᕦ(ò_óˇ)ᕤ**")
 
 
 @borg.on(admin_cmd(pattern="packinfo"))
