@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
+# (c) Xzender Cage
 
 from telethon import events
 import asyncio
@@ -10,7 +10,7 @@ import asyncio
 async def _(event):
     if event.fwd_from:
         return
-    # https://t.me/AnotherGroup/176551
+    # https://t.me/xzendercage
     input_str = event.pattern_match.group(1)
     typing_symbol = "|"
     DELAY_BETWEEN_EDITS = 0.3
