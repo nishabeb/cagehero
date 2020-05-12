@@ -10,7 +10,7 @@ PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**★彡Xʑɘиԁєʀ cʌʛɘ彡★ , check pinned message in** @cage_council"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**★彡𝓝𝓲𝓼𝓱𝓪 𝓙𝓪𝓲𝓼𝔀𝓪𝓵★ , check pinned message in** @cage_council"
 USER_BOT_WARN_ZERO = "`You were spamming My Sister's inbox, henceforth your retarded lame ass has been blocked by My Sister's AI.` **Jaa Gaand Mrwa** "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=898096089)\n\n"
                     "`Hello, this is NISHA AI Security Service.You have found your way here to My Sister,`"
