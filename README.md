@@ -1,6 +1,6 @@
 # FORK AT YOUR OWN RISK
 # Installing
-Join https://t.me/deadpool_army for updates and tuts
+Join https://t.me/cage_council for updates and tuts
 ### The Easy Way
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xzendercage/cagehero)
