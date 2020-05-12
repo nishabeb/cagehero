@@ -6,14 +6,14 @@ from platform import uname
 from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check pinned in @deadpool_army"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No Name set yet.** [Bot By.](tg://user?id=898096089)"
 
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**At Your Service Sir !! I'm Alive**\n\n"
-                     "`Telethon version: 6.9.0\nPython: 3.7.3\nRepo by:` @xzendercage\n"
-                     "`Bot created by:`★彡Xʑɘиԁєʀ cʌʛɘ彡★\n"
-                     "`Database Status: Databases functioning normally!\n\nAlways with you, My Master!\n`"
-                     f"`My peru owner`: ★彡Xʑɘиԁєʀ cʌʛɘ彡★\n"
-                     "[Deploy this userbot Now](https://github.com/xzendercage/cagehero)")
+    await alive.edit("`彡Currently Alive, At Your Service My Pro Master彡\n\n"
+                     "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
+                     # Don't change this else you a TikTok loser, Son of Jinping. Add your own.
+                     "`Bot created by:` [★彡Xʑɘиԁєʀ cʌʛɘ彡★](tg://user?id=898096089), @xzendercage\n"
+                     f"`My peru owner`: {DEFAULTUSER}\n\n"
+                     "https://github.com/xzendercage/cagehero")
