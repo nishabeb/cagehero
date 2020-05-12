@@ -45,9 +45,9 @@ async def _(event):
             afk_time = datetime.datetime.now()  # pylint:disable=E0602
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
-            await borg.send_message(event.chat_id, f"**Jaa Rhe Ho sir?!** __Kyuki ~ {reason}__")
+            await borg.send_message(event.chat_id, f"**Jaa Rhe Ho mam?!** __Kyuki ~ {reason}__")
         else:
-            await borg.send_message(event.chat_id, f"**jaa rha hu Kuch Der Ke Liye!**")
+            await borg.send_message(event.chat_id, f"**jaa rhi hu Kuch Der Ke Liye!**")
         await asyncio.sleep(5)
         await event.delete()
         try:
@@ -145,7 +145,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__My Boyfriend is Busy__ `{total_afk_time}`\nKaha Hai Wo?: ~~Uppr Wale Ko Pta bss~~ " + \
+        message_to_reply = f"__My Sister is Busy__ `{total_afk_time}`\nKaha Hai Wo?: ~~Uppr Wale Ko Pta bss~~ " + \
             f"\n\n__I promise Jaldii Aa Jaenge__\n**REASON**: {reason}" \
             if reason \
             else f"**Heya!**\n__Abhi Unavaliable hu. Tumne Pucha Kya? Kab {total_afk_time} Ummm Shayad.__\n\nKabhi Bhi Aau? ~~Jldi he~~ __Ya Jab Mera Mann Hoga__**( ಠ ʖ̯ ಠ)**  "
